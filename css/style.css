@@ -391,7 +391,7 @@ body {
     padding: 0px 0px 0px 100px;
     min-height: 76px;
     display: inline-block;
-    margin: 0px 24px 0px 0px;
+    width: 24%;
     vertical-align: middle;
 }
 .bottom__listtext {
