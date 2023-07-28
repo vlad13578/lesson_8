@@ -97,7 +97,7 @@ body {
 /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%), url(".../img/image_1.jpg") 0 0 / 100px no-repeat, green url(".../img/01.png") 50% / cover no-repeat; */
 
 .header__container {
-    background: url("../img/Heroshot 3.png") 0 0 / cover no-repeat;
+    background: url("../img/Heroshot3.png") 0 0 / cover no-repeat;
 }
 .header__wrapper {
     max-width: 1040px;
@@ -117,7 +117,7 @@ body {
 
 .header__button {
     max-width: 230px;
-    background: #C40B0B url('../img/ButtonTreatment\ 48px.png') 100% 0 no-repeat;
+    background: #c40b0b url("../img/ButtonTreatment48px.png") 100% 0 no-repeat;
     color: #fff;
     font-family: Roboto;
     font-size: 12px;
@@ -308,7 +308,7 @@ body {
 
 .list__container {
     max-width: 250px;
-    margin: 0px auto;
+    margin: 20px auto 100px auto;
     padding: 13px;
     background-color: #fff;
 }
@@ -346,6 +346,79 @@ body {
 .list__listitem4 {
     background: url("../img/4.svg") 0 3px no-repeat;
     padding: 0px 0px 0px 30px;
+}
+
+.bottom__container {
+    background: #02133c url("../img/overlay image.png") 0 0 no-repeat;
+}
+.bottom__wrapper {
+    max-width: 1040px;
+    padding: 112px 20px 0px 20px;
+    margin: 0px auto;
+}
+.bottom__maintext {
+    padding: 0px 0px 0px 30px;
+    margin: 0px 0px 32px 0px;
+    color: #d5d5d5;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    background:  url("../img/OverlineMark.svg") 0 0 no-repeat;
+    display: inline-block;
+}
+.bottom__img{
+    display: block;
+    margin: -400px 0 100px auto;
+}
+.bottom__subtext {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 42px;
+    margin: 0px 0px 76px 0px;
+    max-width: 411px;
+}
+.bottom__list {
+    color: #c40b0b;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 42px;
+    padding: 0px 0px 0px 100px;
+    min-height: 76px;
+    display: inline-block;
+    margin: 0px 24px 0px 0px;
+    vertical-align: middle;
+}
+.bottom__listtext {
+    color: var(--neutral-gray-4, #F5F5F5);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    max-width: 140px;
+}
+.bottom__ul{
+    padding: 0px 0px 212px 0px;
+}
+.bottom__list1 {
+    background: url('../img/icon1.svg') 0 0 no-repeat;
+}
+.bottom__list2 {
+    background: url('../img/icon2.svg') 0 0 no-repeat;
+}
+.bottom__list3 {
+    background: url('../img/icon3.svg') 0 0 no-repeat;
+}
+.bottom__list4 {
+    background: url('../img/icon4.svg') 0 0 no-repeat;
+    margin: 0;
 }
 
 .link {
