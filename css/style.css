@@ -1,0 +1,366 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url("../fonts/HelveticaNeueCyr-Roman.woff2") format("woff2"),
+        url("../fonts/HelveticaNeueCyr-Roman.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+a,
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+img {
+    vertical-align: top;
+}
+html,
+body {
+    height: 100%;
+}
+html {
+    font-size: 16px;
+}
+body {
+    line-height: 1;
+    background-color: #e9e7e7;
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    max-width: 1460px;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+/*font-family: 'Poppins', sans-serif;*/
+/*font-family: 'Helvetica Neue', sans-serif;*/
+
+/* Визначає колір фону елемента */
+/* background-color: green;
+
+	/* Встановлює фонове зображення 
+	для елемента або задає градієнтну заливку */
+/* background-image: url("../img/01.png"); */
+/* background-image: linear-gradient(to bottom, rgba(236, 232, 157, 1) 0%, rgba(94, 83, 115, 1) 50%, rgba(24, 181, 164, 1) 100%); */
+
+/* Визначає, як буде повторюватися фонове зображення */
+/* background-repeat: no-repeat; */
+
+/* Задає початкове положення фонового зображення, де перше значення 
+	(відсотки, px, слово) визначає розташування 
+	по горизонталі, друге - по вертикалі. */
+/* background-position: 0 0; */
+
+/* Масштабує фонове зображення відповідно до заданих розмірів. 
+	У цифрах, де перше значення (відсотки, px) визначає ширину, 
+	друге - висоту. Або спеціальним значенням. */
+/* background-size: auto auto; */
+
+/* Встановлює, чи буде прокручуватися фонове зображення разом із вмістом елемента. */
+/* background-attachment: scroll; */
+
+/* Універсальна властивість */
+/* background: green url("../img/01.png") 50% / cover no-repeat fixed; */
+
+/* background: linear-gradient(to bottom, rgba(0, 0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%), url(".../img/image_1.jpg") 0 0 / 100px no-repeat, green url(".../img/01.png") 50% / cover no-repeat; */
+
+.header__container {
+    background: url("../img/Heroshot 3.png") 0 0 / cover no-repeat;
+}
+.header__wrapper {
+    max-width: 1040px;
+    padding: 293px 10px 0 10px;
+    margin: 0px auto;
+}
+
+.header__text {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 56px;
+    max-width: 583px;
+    margin: 0px 0px 48px 0px;
+}
+
+.header__button {
+    max-width: 230px;
+    background: #C40B0B url('../img/ButtonTreatment\ 48px.png') 100% 0 no-repeat;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    text-transform: uppercase;
+    padding: 10px 50px 10px 30px;
+    margin: 0px 0px 303px 0px;
+    display: inline-block;
+}
+
+.top_text {
+    color: #4b4b4b;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    display: inline;
+}
+
+.top_mainimg-container {
+    margin: 0px 0px 150px 0px;
+}
+
+.top_mainimg {
+    margin: 0px 0px -120px 0px;
+    max-width: 100%;
+}
+
+.top__container {
+    padding: 100px 87px 0px 87px;
+    max-width: 1020px;
+    margin: -80px auto 0 auto;
+    background: #fff url("../img/Gears.png") 100% 0 no-repeat;
+}
+
+.top__img-container {
+    margin: 0px 0px 33px 0px;
+}
+
+/*.top__img {
+}*/
+
+.top__maintext {
+    color: #02133c;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 42px;
+    max-width: 583px;
+    margin: 0px 0px 36px 0px;
+}
+
+.top__subtext {
+    color: #4b4b4b;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    margin: 0px 0px 56px 0px;
+    max-width: 846px;
+}
+
+/*.background {
+}*/
+.text {
+    font-size: 20px;
+    opacity: 0.5;
+    color: #fdfb6e;
+}
+.div {
+    max-width: 500px;
+    margin: 20px auto;
+    border: 5px solid #131313;
+    padding: 20px;
+}
+.div1 {
+    background: #4b4b4b url("../img/placeholder.png") 0 0 / cover no-repeat;
+}
+.div2 {
+    background: #4b4b4b url("../img/placeholder.png") 0 0 / contain no-repeat;
+}
+.div3 {
+    background: #4b4b4b url("../img/ds1.png") 0 0 / 50px 50px repeat-x;
+}
+.div4 {
+    background: #4b4b4b url("../img/ds1.png") 0 0 / 50px 50px repeat-y;
+}
+.div5 {
+    background: #4b4b4b url("../img/ds1.png") 0 0 / 50px 50px no-repeat;
+}
+.div6 {
+    background: #4b4b4b url("../img/ds1.png") 0 0 / 50px 50px space;
+}
+.div7 {
+    background: #4b4b4b url("../img/ds1.png") 0 0 / 50px 50px round;
+}
+.div8 {
+    background: #4b4b4b url("../img/ds1.png") 0 0 / 50px 50px;
+}
+.div9 {
+    background: linear-gradient(
+        to right,
+        #f2d530 0%,
+        #1e5799 16%,
+        #2fedb4 32%,
+        #1e5799 46%,
+        #30f250 53%,
+        #1e5799 61%,
+        #ed2f91 74%,
+        #2989d8 87%,
+        #7db9e8 100%
+    );
+}
+.div10 {
+    background: linear-gradient(
+        to bottom,
+        #f2d530 0%,
+        #1e5799 16%,
+        #2fedb4 32%,
+        #1e5799 46%,
+        #30f250 53%,
+        #1e5799 61%,
+        #ed2f91 74%,
+        #2989d8 87%,
+        #7db9e8 100%
+    );
+}
+.div11 {
+    background: radial-gradient(
+        ellipse at center,
+        #f2d530 0%,
+        #1e5799 16%,
+        #2fedb4 32%,
+        #1e5799 46%,
+        #30f250 53%,
+        #1e5799 61%,
+        #ed2f91 74%,
+        #2989d8 87%,
+        #7db9e8 100%
+    );
+}
+.div12 {
+    max-height: 300px;
+    overflow: auto;
+    background: #4b4b4b url("../img/placeholder.png") 0 0 / cover no-repeat local;
+}
+.div13 {
+    background: #4b4b4b url("../img/placeholder.png") 0 0 / cover no-repeat fixed;
+}
+
+.div14 {
+    background: #4b4b4b url("../img/placeholder.png") 0 0 / 100% auto no-repeat;
+}
+.div15 {
+    background: #4b4b4b url("../img/placeholder.png") 0 0 / auto 100% no-repeat;
+}
+.div16 {
+    background: #4b4b4b url("../img/placeholder.png") 0 0 / 100% 100% no-repeat;
+}
+.div17 {
+    background: #4b4b4b url("../img/placeholder.png") 50% 0 / 100px 100px no-repeat;
+}
+.div18 {
+    background: #4b4b4b url("../img/placeholder.png") 50% / 100px 100px no-repeat;
+}
+.div19 {
+    background: #4b4b4b url("../img/placeholder.png") 100% 0 / 100px 100px no-repeat;
+}
+.div20 {
+    background: #4b4b4b url("../img/placeholder.png") 100% 50% / 100px 100px no-repeat;
+}
+.div21 {
+    background: #4b4b4b url("../img/placeholder.png") 100% 100% / 100px 100px no-repeat;
+}
+.div22 {
+    background: #4b4b4b url("../img/placeholder.png") 50% 100% / 100px 100px no-repeat;
+}
+.div23 {
+    background: #4b4b4b url("../img/placeholder.png") 0% 100% / 100px 100px no-repeat;
+}
+.div24 {
+    background: #4b4b4b url("../img/placeholder.png") 0% 50% / 100px 100px no-repeat;
+}
+
+.list__container {
+    max-width: 250px;
+    margin: 0px auto;
+    padding: 13px;
+    background-color: #fff;
+}
+.list__text {
+    color: #4b4b4b;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.15px;
+    margin: 0px 0px 28px 0px;
+}
+/*.list__ul {
+}*/
+.list__list {
+    color: #4b4b4b;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.15px;
+    margin: 0px 0px 16px 0px;
+}
+.list__listitem1 {
+    background: url("../img/1.svg") 0 3px no-repeat;
+    padding: 0px 0px 0px 30px;
+}
+.list__listitem2 {
+    background: url("../img/2.svg") 0 3px no-repeat;
+    padding: 0px 0px 0px 30px;
+}
+.list__listitem3 {
+    background: url("../img/3.svg") 0 3px no-repeat;
+    padding: 0px 0px 0px 30px;
+}
+.list__listitem4 {
+    background: url("../img/4.svg") 0 3px no-repeat;
+    padding: 0px 0px 0px 30px;
+}
+
+.link {
+    max-width: 200px;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    display: block;
+    background-color: #fff;
+    margin: 20px auto;
+    border-radius: 20px;
+    color: #000;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+        rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.footer {
+    padding: 20px;
+}
